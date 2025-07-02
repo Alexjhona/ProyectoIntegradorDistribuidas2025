@@ -29,7 +29,7 @@ public class PdfService {
         document.open();
 
         // Nombre de la empresa y título del recibo
-        document.add(new Paragraph("Libros Ceace", FontFactory.getFont(FontFactory.HELVETICA_BOLD, 18)));
+        document.add(new Paragraph("Libros Codelibros", FontFactory.getFont(FontFactory.HELVETICA_BOLD, 18)));
         document.add(new Paragraph("RUC: 12345678901", FontFactory.getFont(FontFactory.HELVETICA, 12)));
         document.add(new Paragraph(" "));
         document.add(new Paragraph("Recibo de Venta", FontFactory.getFont(FontFactory.HELVETICA_BOLD, 16)));
